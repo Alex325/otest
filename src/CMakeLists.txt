@@ -1,6 +1,6 @@
 file(GLOB_RECURSE SRC false ${CMAKE_CURRENT_SOURCE_DIR}/*.cpp)
 
-add_executable(main WIN32)
+add_executable(main)
 
 target_compile_definitions(main PRIVATE GLFW_INCLUDE_NONE)
 
